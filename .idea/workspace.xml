@@ -2,16 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17acaf31-797b-4485-b7aa-81b8f3ba5da4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/debug/res/values/google_maps_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/java/com/example/localevents/EventsActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/java/com/example/localevents/MapsActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/layout/activity_events.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/layout/activity_maps.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/release/res/values/google_maps_api.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalEvents/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/LocalEvents/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/LocalEvents.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/java/com/example/localevents/NavigationActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/drawable-v21/ic_menu_camera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/drawable-v21/ic_menu_gallery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/drawable-v21/ic_menu_manage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/drawable-v21/ic_menu_send.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/drawable-v21/ic_menu_share.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/drawable-v21/ic_menu_slideshow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/drawable/side_nav_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/layout/activity_navigation2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/layout/app_bar_navigation2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/layout/content_navigation2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/layout/nav_header_navigation2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/menu/activity_navigation2_drawer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/menu/navigation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/values/drawables.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LocalEvents/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalEvents/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalEvents/app/src/main/java/com/example/localevents/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/java/com/example/localevents/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalEvents/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/values/dimens.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LocalEvents/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />

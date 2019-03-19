@@ -1,5 +1,6 @@
 package com.example.localevents;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -19,7 +20,7 @@ public class NavigationActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_navigation2);
+        setContentView(R.layout.activity_navigation);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -80,18 +81,18 @@ public class NavigationActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+        if (id == R.id.login) {
+            startActivity(new Intent(NavigationActivity.this, LoginActivity.class));
+        } else if (id == R.id.register) {
+            startActivity(new Intent(NavigationActivity.this, RegisterActivity.class));
+        } else if (id == R.id.edit_user) {
+            startActivity(new Intent(NavigationActivity.this, EditUserActivity.class));
+        } else if (id == R.id.event_list) {
+            startActivity(new Intent(NavigationActivity.this, EventListActivity.class));
+        } else if (id == R.id.my_events) {
+            startActivity(new Intent(NavigationActivity.this, MyEventListActivity.class));
+        } else if (id == R.id.accepted_events) {
+            startActivity(new Intent(NavigationActivity.this, AcceptedEventListActivity.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

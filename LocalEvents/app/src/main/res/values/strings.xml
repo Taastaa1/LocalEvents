@@ -7,4 +7,10 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_edit_user">EditUserActivity</string>
+    <string name="title_activity_event_list">EventListActivity</string>
+    <string name="title_activity_my_event_list">MyEventListActivity</string>
+    <string name="title_activity_accepted_event_list">AcceptedEventListActivity</string>
 </resources>

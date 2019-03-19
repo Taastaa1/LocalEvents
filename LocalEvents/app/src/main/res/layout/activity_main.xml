@@ -12,6 +12,53 @@
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
+        <menu
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:showIn="navigation_view">
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/login"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Login"
+                    android:text="@string/login" />
+
+                <item
+                    android:id="@+id/register"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Registrieren" />
+
+                <item
+                    android:id="@+id/edit_user"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Benutzer bearbeiten" />
+            </group>
+
+            <item android:title="Event">
+
+                <menu>
+
+                    <item
+                        android:id="@+id/event_list"
+                        android:icon="@drawable/ic_menu_share"
+                        android:title="Event Liste" />
+
+                    <item
+                        android:id="@+id/my_events"
+                        android:icon="@drawable/ic_menu_manage"
+                        android:title="Meine Events" />
+
+                    <item
+                        android:id="@+id/accepted_events"
+                        android:icon="@drawable/ic_menu_send"
+                        android:title="Akzeptierte Events" />
+                </menu>
+            </item>
+
+        </menu>
+
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
@@ -32,13 +79,5 @@
         android:text="Button"
         app:layout_anchor="@+id/include"
         app:layout_anchorGravity="bottom|center" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
 
 </android.support.design.widget.CoordinatorLayout>

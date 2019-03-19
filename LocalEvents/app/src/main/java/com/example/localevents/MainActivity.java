@@ -1,5 +1,6 @@
 package com.example.localevents;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -43,8 +44,18 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.login) {
+            startActivity(new Intent(MainActivity.this, LoginActivity.class));
+        } else if (id == R.id.register) {
+            startActivity(new Intent(MainActivity.this, RegisterActivity.class));
+        } else if (id == R.id.edit_user) {
+            startActivity(new Intent(MainActivity.this, EditUserActivity.class));
+        } else if (id == R.id.event_list) {
+            startActivity(new Intent(MainActivity.this, EventListActivity.class));
+        } else if (id == R.id.my_events) {
+            startActivity(new Intent(MainActivity.this, MyEventListActivity.class));
+        } else if (id == R.id.accepted_events) {
+            startActivity(new Intent(MainActivity.this, AcceptedEventListActivity.class));
         }
 
         return super.onOptionsItemSelected(item);

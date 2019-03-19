@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0c4cbbc-c3e7-49bc-a83f-4a42442527b9" name="Default Changelist" comment="" />
+    <list default="true" id="17acaf31-797b-4485-b7aa-81b8f3ba5da4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/LocalEvents.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/java/com/example/localevents/NavigationActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/drawable-v21/ic_menu_camera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/drawable-v21/ic_menu_gallery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/drawable-v21/ic_menu_manage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/drawable-v21/ic_menu_send.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/drawable-v21/ic_menu_share.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/drawable-v21/ic_menu_slideshow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/drawable/side_nav_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/layout/activity_navigation2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/layout/app_bar_navigation2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/layout/content_navigation2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/layout/nav_header_navigation2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/menu/activity_navigation2_drawer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/menu/navigation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/values/drawables.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalEvents/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalEvents/app/src/main/java/com/example/localevents/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/java/com/example/localevents/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalEvents/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalEvents/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LocalEvents/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,22 +33,56 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1619611319">
+    <session id="-4785774">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LocalEvents/app/src/main/res/drawable-v24/ic_launcher_foreground.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="156" />
-    <option name="y" value="-21" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="190" />
+    <option name="y" value="-15" />
     <option name="width" value="1400" />
     <option name="height" value="970" />
   </component>
@@ -34,39 +91,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="LocalEvents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LocalEvents" type="462c0819:PsiDirectoryNode" />
+              <item name="Temp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Temp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LocalEvents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LocalEvents" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LocalEvents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LocalEvents" type="462c0819:PsiDirectoryNode" />
-              <item name="LocalEvents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LocalEvents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LocalEvents" type="462c0819:PsiDirectoryNode" />
-              <item name="LocalEvents" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Temp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Temp" type="462c0819:PsiDirectoryNode" />
+              <item name="DB" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/LocalEvents" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -85,34 +131,65 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b0c4cbbc-c3e7-49bc-a83f-4a42442527b9" name="Default Changelist" comment="" />
-      <created>1551189909093</created>
+      <changelist id="17acaf31-797b-4485-b7aa-81b8f3ba5da4" name="Default Changelist" comment="" />
+      <created>1551189008607</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1551189909093</updated>
+      <updated>1551189008607</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added projekt to repo">
+      <created>1551189140548</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551189140548</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added projekt to repo">
+      <created>1551189211164</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551189211164</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="190" y="-15" width="1400" height="970" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.2708082" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.34477612" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3295964" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Preview" order="2" visible="true" weight="0.32910448" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added projekt to repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added projekt to repo" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LocalEvents/app/src/main/res/drawable-v24/ic_launcher_foreground.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
